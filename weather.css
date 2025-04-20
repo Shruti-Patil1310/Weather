@@ -19,7 +19,7 @@ body {
   left: 0;
   width: 100vw;
   height: 100vh;
-  background-image: url("../Images/Forest.jpg");
+  background-image: url("./Weather/Images/Forest.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
