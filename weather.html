@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="weather.css">
+    <title>Mrs.Forecaster</title>
+</head>
+<body>
+        <span class="background"></span>
+        <div class="navbar">
+            <div class="nav">
+                <div id="header">
+                    <div>Mrs.Forecaster</div>
+                </div>
+                <div class="links-section">
+                    <a href="/index.html" class="nav-link">HOME</a>
+                    <a href="/weather.html" class="nav-link">WEATHER</a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Main Body -->
+        <div id="home" class="weather">
+            <div class="card search">
+                <input type="text" id="city" placeholder="Enter city name" />
+                <button id="getWeatherBtn" type="button"><img src="/Images/search-btn.svg" alt="search"></button>
+            </div>
+            <div class="weather-section">
+                <div class="container">
+                    <div id="quality-container" class="card Details">
+                    </div>
+                    <div class="AQI-weather QI card" id="AQI"></div>
+                    <div class="WQI-weather QI card" id="WQI"></div>
+                    <div class="SQI-weather QI card" id="SQI"></div>
+                </div>
+
+            </div>
+        </div>
+        <script src="/weather.js"></script>
+</body>
+</html>
